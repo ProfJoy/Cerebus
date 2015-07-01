@@ -84,7 +84,7 @@ string password_mixer(string pass, string website_name){
 
 
 
-int main(){ //ToDO: Create a new file using C++ code 2. implement is_open  checks for both filestreams, 3. Implement code to actually draw from files 4. invalid response loop, instead of program exit
+int main(){ //ToDO: Create a new file using C++ code 2. implement is_open  checks for both filestreams, 3. Implement code to actually draw from files 4. invalid response loop, instead of program exit 5.Add clear comment tags to everything
 
 	//Initialize all values and fill alphabet vector...
 	char first_time;
