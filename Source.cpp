@@ -27,6 +27,11 @@ void open_file(string filename){
 	}
 }
 
+/*
+Purpose: The purpose of fill_vector() is to fill the vector of type char, 'alphabet', with individual letters of the alphabet for later use. The vector alphabet is of GLOBAL scope.
+Parameters: The function fill_vector() does not take any parameters.
+Returns: The function fill_vector() does not return anything, it simply adds letters to a vector.
+*/
 void fill_vector(){
 	
 
