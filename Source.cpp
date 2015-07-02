@@ -67,6 +67,13 @@ void fill_vector(){
 
 }
 
+/*
+Purpose: password_mixer() is the heart of Cerebus. It takes the user's original password and the desired website, and uses an algorithm to encode the password - specifically tailored to each website!  
+Parameters: password_mixer() takes two parameters:
+			1.) string pass: The base (original) password that the user provided.
+			2.) string website_name: The name of the specific website that the user wants Cerebus to create a password for.
+Returns: password_mixer() returns a string, pass, which is the new encoded password for the user to use on the specified website.
+*/
 string password_mixer(string pass, string website_name){
 	char key; //The first letter of the website, used to figure out the password offset.
 
