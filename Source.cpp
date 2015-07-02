@@ -7,10 +7,17 @@ using namespace std;
 
 vector<char>alphabet; //Create GLOBAL vector to hold letters of the alphabet.
 
+/*
+Purpose: The purpose of open_file() is to be able to open any file, regardless of name.
+Parameters: The function open_file() takes one parameter, a string which is the name of the file being opened.
+Returns: The function open_file() does not return anything, as it is type void.
+
+*/
 void open_file(string filename){
 	ifstream file_work;
 	file_work.open(filename);
 	int loop_count = 5;
+	//While loop which checks if the correct file name is being used. Implemented this loop instead of 'isOpen' so the User can exit and check their filesystem if they can't remember the filename.
 	while(!file_work && loop_count != 0){
 		cout << "Incorrect File Name, " << loop_count << " tries before program exits." << " Please re-enter the filename:" << endl;
 		string newFileName;
