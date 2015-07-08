@@ -1,11 +1,10 @@
-﻿Build started 6/23/2015 11:50:20 PM.
+﻿Build started 7/7/2015 10:10:55 PM.
      1>Project "C:\Users\Abey\Documents\Visual Studio 2013\Projects\Cerebus\Cerebus\Cerebus.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Source.cpp
          Source.cpp
-     1>c:\users\abey\documents\visual studio 2013\projects\cerebus\cerebus\source.cpp(65): warning C4018: '<' : signed/unsigned mismatch
-     1>c:\users\abey\documents\visual studio 2013\projects\cerebus\cerebus\source.cpp(73): warning C4018: '<' : signed/unsigned mismatch
-     1>c:\users\abey\documents\visual studio 2013\projects\cerebus\cerebus\source.cpp(122): error C2679: binary '>>' : no operator found which takes a right-hand operand of type 'const char [2]' (or there is no acceptable conversion)
+     1>c:\users\abey\documents\visual studio 2013\projects\cerebus\cerebus\source.cpp(93): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\abey\documents\visual studio 2013\projects\cerebus\cerebus\source.cpp(142): error C2679: binary '>>' : no operator found which takes a right-hand operand of type 'const char [2]' (or there is no acceptable conversion)
                  c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(485): could be 'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::basic_streambuf<char,std::char_traits<char>> *)'
                  c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(466): or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(void *&)'
                  c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(448): or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(long double &)'
@@ -37,4 +36,4 @@
 
 Build FAILED.
 
-Time Elapsed 00:00:02.52
+Time Elapsed 00:00:00.28

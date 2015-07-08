@@ -77,14 +77,19 @@ Returns: password_mixer() returns a string, pass, which is the new encoded passw
 string password_mixer(string pass, string website_name){
 	char key; //The first letter of the website, used to figure out the password offset.
 
+	//Seems the following two typecasts are necessary for our impending for loops:
+	int alphabet_size = alphabet.size();
+	int password_size = pass.size();
+	//End typecasting
+
 	key = website_name[0];
 	int increment_value; //This value is the position of the char key 
 	
 	//FOR LOOP to determine how much to offset the password by.
-	for (int i = 0; i < alphabet.size(); i++){
+	for (int i = 0; i < alphabet_size; i++){
 		if (key == alphabet[i]){
 			increment_value = (i + 1); 
-			4//Finds the position of key in the alphabet, and sets the position # to increment_value
+		//Finds the position of key in the alphabet, and sets the position # to increment_value
 		}
 	}
 	//End FOR LOOP
